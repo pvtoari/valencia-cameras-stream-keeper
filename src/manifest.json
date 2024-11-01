@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Valencia Surveillance Camera Stream Keeper",
+  "version": "1.0",
+  "description": "This extension allows users to bypass the 20-second limit on the live stream of Valencia's surveillance cameras.",
+  "content_scripts": [
+      {
+          "matches": ["https://camaras.valencia.es/camaras/visualizador.html?id=*"],
+          "js": ["content.js"]
+      }
+  ],
+  "web_accessible_resources": [
+      "content.js"
+  ]
+}
