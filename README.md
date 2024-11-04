@@ -17,7 +17,7 @@ _certainly i don't know if i'll publish this in the Chrome Web Store since they 
 
 ### Firefox
 
-Can be installed [via Firefox Add-ons](https://addons.mozilla.org/valencia-cameras-stream-keeper) or by the following:
+Can be installed [via Firefox Add-ons](https://addons.mozilla.org/es/firefox/addon/valencia-cameras-stream-keeper) or by the following:
 
 1. Clone or download this repository.
 2. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`.
